@@ -2,7 +2,7 @@
 
 A production-grade end-to-end test automation framework built with [Playwright](https://playwright.dev) and JavaScript, featuring a fully automated CI/CD pipeline with a live test dashboard hosted on GitHub Pages.
 
-🔗 **[Live Dashboard](https://jay-yeluru.github.io/playwright-demo-js/)**
+🔗 **[Live Dashboard](https://eznxxy.github.io/playwright-demo-js/)**
 
 ---
 
@@ -69,7 +69,7 @@ playwright-demo-js/
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/jay-yeluru/playwright-demo-js.git
+git clone https://github.com/eznxxy/playwright-demo-js.git
 cd playwright-demo-js
 
 # Install dependencies
@@ -146,7 +146,7 @@ Steps:
 
 ## 📊 Test Dashboard
 
-The live dashboard is hosted at **https://jay-yeluru.github.io/playwright-demo-js/** and updates automatically after every CI run.
+The live dashboard is hosted at **https://eznxxy.github.io/playwright-demo-js/** and updates automatically after every CI run.
 
 ### Dashboard features
 
