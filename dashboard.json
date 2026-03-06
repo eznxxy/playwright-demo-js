@@ -1,0 +1,16 @@
+[
+  {
+    "date": "2026-03-06 03:24:47 UTC",
+    "branch": "master",
+    "browser": "chrome",
+    "passed": 14,
+    "failed": 1,
+    "flaky": 2,
+    "total": 15,
+    "duration": 14712,
+    "status": "❌",
+    "conclusion": "failure",
+    "reportUrl": "reports/master/22747605889/index.html",
+    "runId": "22747605889"
+  }
+]
