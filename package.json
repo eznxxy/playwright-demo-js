@@ -1,40 +1,40 @@
 {
-  "name": "playwright-demo-js",
+  "name": "indoxnito",
   "version": "1.0.0",
-  "description": "Playwright demo with JavaScript",
+  "description": "Playwright with typescript to automate indoxnito project",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test",
+    "test:profile": "npx playwright test profile --workers=1 --project=chromium",
+    "test:signin:chrome": "npx playwright test signin --project=chromium",
+    "test:signin:firefox": "npx playwright test signin --project=firefox",
+    "test:signin:edge": "npx playwright test signin --project=edge",
+    "test": "npx playwright test --grep-invert 'profile.spec.ts'",
     "test:chrome": "npx playwright test --project=chromium",
     "test:firefox": "npx playwright test --project=firefox",
-    "test:safari": "npx playwright test --project=webkit",
     "test:edge": "npx playwright test --project=edge",
     "test:smoke": "npx playwright test --grep @smoke",
-    "show-report": "npx playwright show-report reports"
+    "show-report": "npx playwright show-report reports",
+    "dashboard:local": "npx tsx .github/scripts/run-dashboard-local.ts"
   },
   "keywords": [
     "Playwright",
     "JavaScript"
   ],
-  "author": "eznxxy",
+  "author": "eznxxy - Arif Dwi Laksana",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eznxxy/playwright-demo-js.git"
+    "url": "git+https://github.com/humblehg-org/qa-indoxnito-automation.git"
   },
-  "bugs": {
-    "url": "https://github.com/eznxxy/playwright-demo-js/issues"
-  },
-  "homepage": "https://github.com/eznxxy/playwright-demo-js#readme",
+  "type": "commonjs",
   "devDependencies": {
-    "@playwright/test": "^1.50.0",
-    "allure-playwright": "^3.0.0",
-    "eslint": "^9.0.0",
-    "eslint-config-prettier": "^10.0.0",
-    "eslint-plugin-prettier": "^5.0.0",
-    "prettier": "^3.0.0"
-  },
-  "engines": {
-    "node": ">=22"
+    "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.3",
+    "eslint": "^10.0.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "prettier": "^3.8.1",
+    "typescript-eslint": "^8.56.1"
   }
 }

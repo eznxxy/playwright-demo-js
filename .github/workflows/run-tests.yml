@@ -42,7 +42,7 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run tests
-        run: npm run test:${{ inputs.browser }}
+        run: npm run test:signin:${{ inputs.browser }}
 
 
       - name: Upload reports
